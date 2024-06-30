@@ -12,6 +12,7 @@ Esta es una base de datos diseñada para un centro médico. En la misma, se gest
 
 #### Diagrama de entidad relación de la base de datos simplificado:
 
+```
 
 +--------------+         +--------------+
 |   Paciente   |         |    Medico    |
@@ -60,6 +61,7 @@ Esta es una base de datos diseñada para un centro médico. En la misma, se gest
 | id_receta      |    
 +----------------+
 
+```
 
  #### Listado de las tablas que comprenden la base de datos
 
