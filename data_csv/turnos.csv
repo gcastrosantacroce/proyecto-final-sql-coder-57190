@@ -1,0 +1,210 @@
+id_paciente,id_medico,fecha,hora,motivo
+1,1,2024-10-01,09:00:00,Consulta general
+1,2,2024-10-02,10:30:00,Chequeo cardiológico
+2,3,2024-10-03,11:00:00,Revisión de rutina
+3,4,2024-10-04,14:00:00,Consulta endocrinológica
+4,5,2024-10-05,15:30:00,Chequeo ortopédico
+5,6,2024-10-06,09:45:00,Consulta para diabetes
+6,7,2024-10-07,11:15:00,Revisión general
+7,8,2024-10-08,14:30:00,Chequeo de alergias
+8,9,2024-10-09,10:00:00,Consulta para colesterol alto
+9,10,2024-10-10,16:00:00,Revisión para hipertensión
+10,11,2024-10-11,08:30:00,Consulta de rutina
+11,12,2024-10-12,13:00:00,Chequeo endocrinológico
+12,13,2024-10-13,09:30:00,Consulta para diabetes tipo 1
+13,14,2024-10-14,10:45:00,Revisión general
+14,15,2024-10-15,11:30:00,Consulta reumatológica
+15,16,2024-10-16,12:00:00,Consulta de alergias
+16,17,2024-10-17,15:00:00,Chequeo general
+17,18,2024-10-18,16:30:00,Revisión para colitis
+18,19,2024-10-19,14:00:00,Consulta endocrinológica
+19,20,2024-10-20,11:15:00,Chequeo de hipertensión
+20,21,2024-10-21,09:00:00,Revisión de asma
+21,22,2024-10-22,10:30:00,Consulta general
+22,23,2024-10-23,13:45:00,Chequeo para diabetes tipo 2
+23,24,2024-10-24,15:00:00,Revisión ortopédica
+24,25,2024-10-25,11:00:00,Consulta de colitis
+25,26,2024-10-26,14:00:00,Chequeo general
+26,27,2024-10-27,09:30:00,Consulta endocrinológica
+27,28,2024-10-28,16:30:00,Revisión de colesterol alto
+28,29,2024-10-29,10:00:00,Consulta general
+29,30,2024-10-30,11:30:00,Chequeo para diabetes tipo 1
+30,1,2024-10-31,13:00:00,Revisión de hipertensión
+31,2,2024-11-01,14:30:00,Consulta de rutina
+32,3,2024-11-02,15:00:00,Chequeo ortopédico
+33,4,2024-11-03,09:00:00,Consulta para alergias
+34,5,2024-11-04,10:30:00,Revisión endocrinológica
+35,6,2024-11-05,11:00:00,Chequeo general
+36,7,2024-11-06,14:00:00,Consulta para diabetes tipo 2
+37,8,2024-11-07,15:30:00,Revisión para colitis
+38,9,2024-11-08,09:45:00,Chequeo de hipertensión
+39,10,2024-11-09,11:15:00,Consulta reumatológica
+40,11,2024-11-10,13:00:00,Consulta general
+41,12,2024-11-11,14:30:00,Chequeo de colesterol alto
+42,13,2024-11-12,16:00:00,Revisión de diabetes tipo 1
+43,14,2024-11-13,09:00:00,Consulta de rutina
+44,15,2024-11-14,10:30:00,Chequeo ortopédico
+45,16,2024-11-15,11:30:00,Revisión de alergias
+46,17,2024-11-16,12:00:00,Consulta endocrinológica
+47,18,2024-11-17,15:00:00,Chequeo general
+48,19,2024-11-18,16:30:00,Revisión de hipertensión
+49,20,2024-11-19,14:00:00,Consulta para diabetes tipo 2
+50,21,2024-11-20,09:30:00,Chequeo general
+51,22,2024-11-21,10:00:00,Consulta reumatológica
+52,23,2024-11-22,11:15:00,Revisión de colitis
+53,24,2024-11-23,13:00:00,Chequeo endocrinológico
+54,25,2024-11-24,14:30:00,Consulta de hipertensión
+55,26,2024-11-25,15:00:00,Chequeo general
+56,27,2024-11-26,16:30:00,Revisión de diabetes tipo 1
+57,28,2024-11-27,09:00:00,Consulta de rutina
+58,29,2024-11-28,10:30:00,Chequeo ortopédico
+59,30,2024-11-29,11:00:00,Consulta para alergias
+60,1,2024-11-30,13:00:00,Revisión de colesterol alto
+61,2,2024-12-01,14:00:00,Consulta general
+62,3,2024-12-02,15:30:00,Chequeo de hipertensión
+63,4,2024-12-03,09:00:00,Revisión endocrinológica
+64,5,2024-12-04,10:30:00,Consulta general
+65,6,2024-12-05,11:15:00,Chequeo para diabetes tipo 2
+66,7,2024-12-06,12:00:00,Revisión de colitis
+67,8,2024-12-07,15:00:00,Consulta de rutina
+68,9,2024-12-08,16:30:00,Chequeo general
+69,10,2024-12-09,09:00:00,Consulta para diabetes tipo 1
+70,11,2024-12-10,10:30:00,Revisión ortopédica
+71,12,2024-12-11,11:45:00,Consulta para alergias
+72,13,2024-12-12,13:00:00,Chequeo de colesterol alto
+73,14,2024-12-13,14:30:00,Revisión de hipertensión
+74,15,2024-12-14,15:00:00,Consulta general
+75,16,2024-12-15,09:30:00,Chequeo para diabetes tipo 1
+76,17,2024-12-16,10:00:00,Revisión general
+77,18,2024-12-17,11:30:00,Consulta de rutina
+78,19,2024-12-18,12:00:00,Chequeo de hipertensión
+79,20,2024-12-19,14:00:00,Revisión para diabetes tipo 2
+80,21,2024-12-20,15:30:00,Consulta general
+81,22,2024-12-21,09:00:00,Chequeo general
+82,23,2024-12-22,10:30:00,Consulta de colitis
+83,24,2024-12-23,11:15:00,Revisión endocrinológica
+84,25,2024-12-24,13:00:00,Consulta para diabetes tipo 1
+85,26,2024-12-25,14:30:00,Chequeo de colesterol alto
+86,27,2024-12-26,16:00:00,Consulta general
+87,28,2024-12-27,09:00:00,Revisión de hipertensión
+88,29,2024-12-28,10:30:00,Consulta de rutina
+89,30,2024-12-29,11:00:00,Chequeo ortopédico
+90,1,2024-12-30,13:30:00,Revisión general
+91,2,2024-12-31,14:00:00,Consulta para alergias
+92,3,2025-01-01,16:00:00,Chequeo general
+93,4,2025-01-02,09:30:00,Revisión de diabetes tipo 1
+94,5,2025-01-03,10:00:00,Consulta para hipertensión
+95,6,2025-01-04,11:00:00,Chequeo de colitis
+96,7,2025-01-05,13:00:00,Consulta general
+97,8,2025-01-06,14:30:00,Revisión de colesterol alto
+98,9,2025-01-07,15:00:00,Chequeo para diabetes tipo 2
+99,10,2025-01-08,09:00:00,Consulta de rutina
+100,11,2025-01-09,10:30:00,Chequeo ortopédico
+101,12,2025-01-10,11:30:00,Consulta general
+102,13,2025-01-11,14:00:00,Revisión de hipertensión
+103,14,2025-01-12,15:30:00,Chequeo endocrinológico
+104,15,2025-01-13,09:00:00,Consulta para alergias
+1,5,2025-01-14,09:00:00,Consulta general
+2,12,2025-01-15,10:30:00,Chequeo de hipertensión
+3,25,2025-01-16,11:00:00,Revisión endocrinológica
+4,8,2025-01-17,14:00:00,Consulta para diabetes tipo 1
+5,20,2025-01-18,15:30:00,Chequeo de colesterol alto
+6,4,2025-01-19,09:45:00,Consulta de rutina
+7,30,2025-01-20,11:15:00,Revisión de alergias
+8,16,2025-01-21,14:30:00,Chequeo general
+9,22,2025-01-22,10:00:00,Consulta reumatológica
+10,10,2025-01-23,16:00:00,Revisión de colitis
+11,6,2025-01-24,08:30:00,Consulta de rutina
+12,14,2025-01-25,13:00:00,Chequeo endocrinológico
+13,27,2025-01-26,09:30:00,Consulta para diabetes tipo 2
+14,3,2025-01-27,10:45:00,Revisión general
+15,18,2025-01-28,11:30:00,Consulta ortopédica
+16,12,2025-01-29,12:00:00,Consulta de alergias
+17,21,2025-01-30,15:00:00,Chequeo general
+18,28,2025-01-31,16:30:00,Revisión de hipertensión
+19,4,2025-02-01,14:00:00,Consulta endocrinológica
+20,9,2025-02-02,11:15:00,Chequeo de colesterol alto
+21,13,2025-02-03,09:00:00,Revisión de asma
+22,29,2025-02-04,10:30:00,Consulta general
+23,17,2025-02-05,13:45:00,Chequeo para diabetes tipo 2
+24,30,2025-02-06,15:00:00,Revisión ortopédica
+25,2,2025-02-07,11:00:00,Consulta de colitis
+26,7,2025-02-08,14:00:00,Chequeo general
+27,19,2025-02-09,09:30:00,Consulta endocrinológica
+28,24,2025-02-10,16:30:00,Revisión de colesterol alto
+29,26,2025-02-11,10:00:00,Consulta general
+30,5,2025-02-12,11:30:00,Chequeo para diabetes tipo 1
+31,11,2025-02-13,13:00:00,Revisión de hipertensión
+32,23,2025-02-14,14:30:00,Consulta de rutina
+33,15,2025-02-15,15:00:00,Chequeo ortopédico
+34,20,2025-02-16,09:00:00,Consulta para alergias
+35,8,2025-02-17,10:30:00,Revisión endocrinológica
+36,6,2025-02-18,11:00:00,Chequeo general
+37,4,2025-02-19,14:00:00,Consulta para diabetes tipo 2
+38,22,2025-02-20,15:30:00,Revisión de colitis
+39,19,2025-02-21,09:45:00,Consulta de rutina
+40,13,2025-02-22,11:15:00,Chequeo de hipertensión
+41,27,2025-02-23,12:00:00,Consulta de alergias
+42,10,2025-02-24,15:00:00,Chequeo general
+43,3,2025-02-25,16:30:00,Revisión para colesterol alto
+44,26,2025-02-26,09:00:00,Consulta general
+45,30,2025-02-27,10:30:00,Chequeo endocrinológico
+46,8,2025-02-28,11:45:00,Consulta para diabetes tipo 1
+47,17,2025-03-01,13:00:00,Revisión de hipertensión
+48,21,2025-03-02,14:30:00,Chequeo general
+49,14,2025-03-03,15:00:00,Consulta ortopédica
+50,12,2025-03-04,09:30:00,Revisión de colitis
+51,5,2025-03-05,10:00:00,Chequeo de colesterol alto
+52,9,2025-03-06,11:30:00,Consulta para diabetes tipo 2
+53,18,2025-03-07,12:00:00,Revisión general
+54,26,2025-03-08,14:00:00,Chequeo endocrinológico
+55,23,2025-03-09,15:30:00,Consulta para alergias
+56,11,2025-03-10,09:00:00,Revisión de hipertensión
+57,27,2025-03-11,10:30:00,Consulta de rutina
+58,8,2025-03-12,11:00:00,Chequeo ortopédico
+59,22,2025-03-13,14:30:00,Revisión de colitis
+60,19,2025-03-14,15:00:00,Consulta general
+61,7,2025-03-15,09:00:00,Chequeo de colesterol alto
+62,2,2025-03-16,10:30:00,Consulta general
+63,15,2025-03-17,11:45:00,Revisión endocrinológica
+64,12,2025-03-18,13:00:00,Consulta para diabetes tipo 1
+65,30,2025-03-19,14:30:00,Chequeo de hipertensión
+66,20,2025-03-20,16:00:00,Consulta de rutina
+67,3,2025-03-21,09:00:00,Revisión general
+68,26,2025-03-22,10:30:00,Chequeo ortopédico
+69,24,2025-03-23,11:15:00,Consulta de colitis
+70,8,2025-03-24,12:00:00,Chequeo de colesterol alto
+71,5,2025-03-25,14:00:00,Consulta para alergias
+72,22,2025-03-26,15:30:00,Revisión de diabetes tipo 2
+73,11,2025-03-27,09:30:00,Consulta de rutina
+74,17,2025-03-28,10:00:00,Chequeo endocrinológico
+75,19,2025-03-29,11:30:00,Consulta para diabetes tipo 1
+76,6,2025-03-30,12:00:00,Revisión de hipertensión
+77,8,2025-03-31,14:00:00,Chequeo de colesterol alto
+78,21,2025-04-01,15:30:00,Consulta general
+79,13,2025-04-02,09:00:00,Revisión de colitis
+80,27,2025-04-03,10:30:00,Chequeo general
+81,10,2025-04-04,11:15:00,Consulta de alergias
+82,30,2025-04-05,12:00:00,Chequeo de hipertensión
+83,15,2025-04-06,13:00:00,Consulta para diabetes tipo 2
+84,18,2025-04-07,14:30:00,Revisión general
+85,9,2025-04-08,15:00:00,Chequeo ortopédico
+86,8,2025-04-09,09:00:00,Consulta de rutina
+87,24,2025-04-10,10:30:00,Revisión endocrinológica
+88,22,2025-04-11,11:45:00,Consulta para diabetes tipo 1
+89,27,2025-04-12,13:00:00,Chequeo de colesterol alto
+90,5,2025-04-13,14:30:00,Revisión general
+91,11,2025-04-14,15:00:00,Consulta para hipertensión
+92,30,2025-04-15,09:00:00,Chequeo ortopédico
+93,13,2025-04-16,10:30:00,Consulta general
+94,18,2025-04-17,11:15:00,Chequeo para alergias
+95,22,2025-04-18,12:00:00,Revisión de colitis
+96,19,2025-04-19,14:00:00,Consulta de rutina
+97,26,2025-04-20,15:30:00,Chequeo de hipertensión
+98,8,2025-04-21,09:00:00,Consulta para diabetes tipo 2
+99,17,2025-04-22,10:30:00,Chequeo general
+100,21,2025-04-23,11:45:00,Revisión endocrinológica
+101,15,2025-04-24,13:00:00,Consulta de rutina
+102,30,2025-04-25,14:30:00,Chequeo general
+103,8,2025-04-26,16:00:00,Revisión de hipertensión
+104,13,2025-04-27,09:00:00,Consulta para alergias

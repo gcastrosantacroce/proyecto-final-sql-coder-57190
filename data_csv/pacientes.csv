@@ -1,0 +1,105 @@
+nombre,apellido,fechanacimiento,direccion,telefono,email,historialmedico
+Juan,Pérez,1980-05-15,Calle Falsa 123,555-1234,juan.perez@example.com,Sin antecedentes médicos
+Ana,Gómez,1992-11-23,Avenida Siempre Viva 742,555-5678,ana.gomez@example.com,Alergia a la penicilina
+Pedro,Martínez,1975-03-30,Calle Real 456,555-8765,pedro.martinez@example.com,Diabetes tipo 2
+Marta,Suárez,1988-07-22,Calle Mayor 789,555-4321,marta.suarez@example.com,Sin antecedentes médicos
+Lucía,Ortega,1995-09-15,Plaza del Sol 1,555-1357,lucia.ortega@example.com,Asma
+Antonio,Muñoz,1982-01-10,Calle del Mar 234,555-2468,antonio.munoz@example.com,Hipertensión
+Claudia,Fernández,1990-04-25,Avenida del Norte 876,555-3579,claudia.fernandez@example.com,Sin antecedentes médicos
+José,López,1985-06-17,Calle del Prado 345,555-4680,jose.lopez@example.com,Alergia a mariscos
+Elena,Martínez,1978-08-30,Calle del Viento 678,555-5791,elena.martinez@example.com,Sin antecedentes médicos
+Manuel,Jiménez,1993-12-05,Calle del Campo 123,555-6802,manuel.jimenez@example.com,Colesterol alto
+Laura,Alonso,1987-10-10,Calle del Sol 234,555-7913,laura.alonso@example.com,Sin antecedentes médicos
+Francisco,Castro,1981-02-20,Calle del Río 456,555-8024,francisco.castro@example.com,Diabetes tipo 1
+Patricia,Ramos,1994-05-18,Calle de la Luna 789,555-9135,patricia.ramos@example.com,Sin antecedentes médicos
+Jorge,Reyes,1976-11-07,Calle de la Paz 987,555-0246,jorge.reyes@example.com,Artritis
+Carmen,Valencia,1989-09-12,Avenida del Mar 654,555-1358,carmen.valencia@example.com,Sin antecedentes médicos
+Ricardo,Herrera,1984-07-05,Calle del Bosque 321,555-2469,ricardo.herrera@example.com,Alergia a polvo
+Natalia,Romero,1991-03-23,Avenida Central 111,555-3570,natalia.romero@example.com,Sin antecedentes médicos
+Oscar,Peralta,1983-08-15,Calle de la Estrella 567,555-4681,oscar.peralta@example.com,Colitis
+Julia,Bermúdez,1996-12-01,Calle de los Jardines 234,555-5792,julia.bermudez@example.com,Sin antecedentes médicos
+David,Salazar,1980-10-30,Calle de los Rosales 456,555-6803,david.salazar@example.com,Sin antecedentes médicos
+María,Torres,1986-01-25,Avenida de la Libertad 789,555-7914,maria.torres@example.com,Hipertensión
+Esteban,Guerrero,1990-04-10,Calle del Puente 345,555-8025,esteban.guerrero@example.com,Sin antecedentes médicos
+Verónica,Martínez,1984-06-15,Calle de los Cedros 678,555-9136,veronica.martinez@example.com,Asma
+Miguel,Castillo,1992-11-12,Calle del Parque 123,555-0247,miguel.castillo@example.com,Diabetes tipo 2
+Silvia,Ortiz,1985-07-05,Avenida de las Flores 234,555-1359,silvia.ortiz@example.com,Sin antecedentes médicos
+Guillermo,Montoya,1979-09-22,Calle de los Pinos 456,555-2460,guillermo.montoya@example.com,Colesterol alto
+Andrea,Suárez,1993-02-18,Calle del Lago 789,555-3571,andrea.suarez@example.com,Sin antecedentes médicos
+Julio,Rivera,1987-12-01,Calle de la Iglesia 987,555-4682,julio.rivera@example.com,Alergia a mariscos
+Liliana,Valencia,1986-06-25,Avenida de la Ciudad 654,555-5793,liliana.valencia@example.com,Sin antecedentes médicos
+Álvaro,García,1988-03-14,Calle de los Olivos 321,555-6804,alvaro.garcia@example.com,Artritis
+Carolina,Acosta,1995-01-18,Calle del Viento 456,555-7915,carolina.acosta@example.com,Sin antecedentes médicos
+Adrián,Muñoz,1984-11-30,Avenida del Mar 789,555-8026,adrian.munoz@example.com,Diabetes tipo 1
+Gloria,Herrera,1990-05-22,Calle del Río 678,555-9137,gloria.herrera@example.com,Sin antecedentes médicos
+Raúl,Ramírez,1982-10-17,Calle del Sol 345,555-0248,raul.ramirez@example.com,Colitis
+Vanessa,Jiménez,1994-07-25,Calle de los Jardines 123,555-1350,vanessa.jimenez@example.com,Sin antecedentes médicos
+Nicolás,Salazar,1993-03-18,Avenida Central 654,555-2461,nicolas.salazar@example.com,Asma
+Melissa,Ramírez,1991-08-05,Calle del Prado 789,555-3572,melissa.ramirez@example.com,Diabetes tipo 2
+Eduardo,Romero,1986-11-22,Calle de la Luna 456,555-4683,eduardo.romero@example.com,Sin antecedentes médicos
+Isabel,Mendoza,1983-05-10,Calle del Campo 123,555-5794,isabel.mendoza@example.com,Colesterol alto
+Marcelo,Ortega,1980-02-15,Calle del Bosque 678,555-6805,marcelo.ortega@example.com,Sin antecedentes médicos
+Daniela,Gómez,1990-09-10,Avenida del Norte 987,555-7916,daniela.gomez@example.com,Artritis
+Víctor,Castro,1987-06-01,Calle del Viento 234,555-8027,victor.castro@example.com,Sin antecedentes médicos
+Lina,Martínez,1994-12-15,Calle del Mar 567,555-9138,lina.martinez@example.com,Diabetes tipo 1
+Antonio,Bermúdez,1982-04-07,Calle del Sol 345,555-0249,antonio.bermudez@example.com,Sin antecedentes médicos
+Carla,Fernández,1995-07-20,Avenida del Mar 123,555-1351,carla.fernandez@example.com,Asma
+Héctor,Guerrero,1986-01-10,Calle de los Cedros 456,555-2462,hector.guerrero@example.com,Sin antecedentes médicos
+Paola,García,1988-09-25,Calle del Parque 789,555-3573,paola.garcia@example.com,Colitis
+Jorge,Pérez,1991-12-05,Calle del Río 678,555-4684,jorge.perez@example.com,Diabetes tipo 2
+Alejandra,Rojas,1992-06-22,Avenida de la Ciudad 345,555-5795,alejandra.rojas@example.com,Sin antecedentes médicos
+Santiago,Ramírez,1984-08-10,Calle de los Jardines 123,555-6806,santiago.ramirez@example.com,Artritis
+Laura,Suárez,1995-03-05,Calle del Sol 456,555-7917,laura.suarez@example.com,Sin antecedentes médicos
+Juliana,Montoya,1987-02-18,Calle del Río 789,555-8028,juliana.montoya@example.com,Diabetes tipo 2
+Néstor,Alarcón,1983-11-25,Calle de la Paz 234,555-9139,nestor.alarcon@example.com,Sin antecedentes médicos
+Gabriela,Herrera,1992-07-20,Calle del Campo 567,555-0249,gabriela.herrera@example.com,Asma
+Rodrigo,Castro,1981-09-10,Calle del Bosque 678,555-1352,rodrigo.castro@example.com,Colitis
+Sofía,Marín,1990-02-15,Avenida del Mar 123,555-2463,sofia.marin@example.com,Sin antecedentes médicos
+Fabián,Castillo,1994-10-05,Calle del Prado 456,555-3574,fabian.castillo@example.com,Diabetes tipo 1
+Mónica,Bermúdez,1985-04-20,Calle del Parque 789,555-4685,monica.bermudez@example.com,Sin antecedentes médicos
+Ricardo,Reyes,1988-01-10,Calle del Sol 234,555-5796,ricardo.reyes@example.com,Artritis
+Jessica,Mendoza,1991-08-25,Avenida de la Ciudad 567,555-6807,jessica.mendoza@example.com,Sin antecedentes médicos
+Héctor,Gómez,1986-03-10,Calle de los Olivos 678,555-7918,hector.gomez@example.com,Colesterol alto
+Daniela,Ramírez,1993-12-15,Calle del Mar 345,555-8029,daniela.ramirez@example.com,Asma
+Esteban,Bermúdez,1987-09-20,Calle de los Cedros 123,555-9130,esteban.bermudez@example.com,Sin antecedentes médicos
+Sandra,Castro,1992-06-05,Calle del Río 456,555-0240,sandra.castro@example.com,Diabetes tipo 2
+Antonio,Rodríguez,1990-11-18,Calle de la Luna 789,555-1353,antonio.rodriguez@example.com,Sin antecedentes médicos
+Beatriz,Fernández,1984-05-25,Calle del Campo 234,555-2464,beatriz.fernandez@example.com,Artritis
+David,Suárez,1989-12-10,Avenida del Norte 567,555-3575,david.suarez@example.com,Sin antecedentes médicos
+Carolina,Montoya,1996-04-20,Calle del Prado 678,555-4686,carolina.montoya@example.com,Colitis
+Gustavo,Reyes,1982-07-15,Calle del Sol 789,555-5797,gustavo.reyes@example.com,Sin antecedentes médicos
+Natalia,Polanski,1991-03-05,Calle de los Pinos 456,555-6808,natalia.polanski@example.com,Asma
+Mario,Alonso,1988-09-30,Calle del Bosque 123,555-7919,mario.alonso@example.com,Diabetes tipo 1
+Silvia,Gómez,1994-06-12,Avenida Central 789,555-8020,silvia.gomez@example.com,Sin antecedentes médicos
+Jorge,Bermúdez,1985-11-22,Calle de la Paz 234,555-9131,jorge.bermudez@example.com,Colesterol alto
+Catalina,Martínez,1992-08-15,Calle de los Cedros 567,555-0241,catalina.martinez@example.com,Artritis
+Alejandro,Castillo,1989-01-10,Calle del Prado 678,555-1354,alejandro.castillo@example.com,Sin antecedentes médicos
+Marina,Ramírez,1984-10-20,Calle del Río 789,555-2465,marina.ramirez@example.com,Diabetes tipo 2
+Mauricio,Rodríguez,1991-03-15,Calle del Mar 123,555-3576,mauricio.rodriguez@example.com,Sin antecedentes médicos
+Adriana,Fernández,1986-07-30,Calle del Sol 456,555-4687,adriana.fernandez@example.com,Asma
+Carlos,Gómez,1990-12-05,Calle del Bosque 789,555-5798,carlos.gomez@example.com,Colitis
+María,Castillo,1987-05-20,Avenida de la Ciudad 567,555-6809,maria.castillo@example.com,Diabetes tipo 1
+José,Reyes,1985-11-15,Calle del Parque 678,555-7910,jose.reyes@example.com,Sin antecedentes médicos
+Nicolás,Ramírez,1993-01-10,Calle de la Luna 345,555-8021,nicolas.ramirez@example.com,Artritis
+Lucía,Alonso,1990-06-20,Calle del Río 456,555-9132,lucia.alonso@example.com,Sin antecedentes médicos
+Emilio,Suárez,1984-02-15,Calle de los Olivos 123,555-0242,emilio.suarez@example.com,Colesterol alto
+Patricia,Valencia,1989-10-20,Avenida del Mar 234,555-1355,patricia.valencia@example.com,Diabetes tipo 2
+Luis,Rodríguez,1992-11-15,Calle del Prado 456,555-2466,luis.rodriguez@example.com,Asma
+Marcela,Martínez,1986-09-30,Calle del Bosque 789,555-3577,marcela.martinez@example.com,Sin antecedentes médicos
+Óscar,Castro,1990-12-05,Calle del Campo 678,555-4688,oscar.castro@example.com,Colitis
+Viviana,Reyes,1983-07-15,Avenida Central 123,555-5799,viviana.reyes@example.com,Diabetes tipo 1
+Sergio,Gómez,1988-03-20,Calle de los Cedros 789,555-6800,sergio.gomez@example.com,Sin antecedentes médicos
+Valentina,Ortega,1995-11-25,Calle del Mar 456,555-7911,valentina.ortega@example.com,Artritis
+Andrés,Martínez,1986-02-10,Calle del Prado 567,555-8022,andres.martinez@example.com,Colesterol alto
+Margarita,Fernández,1991-08-05,Calle del Río 678,555-9133,margarita.fernandez@example.com,Diabetes tipo 2
+Alejandra,Alarcón,1985-04-25,Avenida de la Ciudad 345,555-0243,alejandra.alarcon@example.com,Asma
+Felipe,Reyes,1987-09-10,Calle del Sol 456,555-1356,felipe.reyes@example.com,Sin antecedentes médicos
+Natalia,Castro,1994-12-15,Calle de la Luna 789,555-2467,natalia.castro@example.com,Colitis
+Fernando,Suárez,1982-07-05,Calle de los Olivos 123,555-3578,fernando.suarez@example.com,Diabetes tipo 1
+Sandra,Bermúdez,1989-03-10,Calle del Campo 234,555-4689,sandra.bermudez@example.com,Sin antecedentes médicos
+Martín,Gómez,1993-12-20,Calle del Prado 567,555-5790,martin.gomez@example.com,Artritis
+Alejandra,Suárez,1987-06-15,Avenida del Mar 678,555-6801,alejandra.suarez@example.com,Sin antecedentes médicos
+Javier,Alonso,1995-11-20,Calle del Mar 123,555-7912,javier.alonso@example.com,Colesterol alto
+Mónica,Castillo,1990-01-30,Calle del Río 456,555-8023,monica.castillo@example.com,Diabetes tipo 2
+Luis,Reyes,1986-07-15,Avenida Central 789,555-9134,luis.reyes@example.com,Sin antecedentes médicos
+Isabella,Rodríguez,1994-04-10,Calle del Sol 678,555-0244,isabella.rodriguez@example.com,Asma
