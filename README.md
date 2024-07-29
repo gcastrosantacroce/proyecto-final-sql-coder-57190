@@ -136,7 +136,7 @@ Descripcion de los tipos de datos por tabla
 
 ---
 
-### Documentacion de Vistas
+## Documentacion de Vistas
 ### Vista: cantidad_turnos_por_paciente
 
 **Descripción:** Esta vista proporciona la cantidad de turnos para cada paciente.
@@ -262,65 +262,52 @@ SELECT historial_medico_paciente (25);
 
 ## Documentación de Triggers 
 
-### Trigger: after_insert_trigger
+### Trigger: verificar_disponibilidad_medico
 
-**Descripción:** Este trigger registra la inserción de un nuevo cliente en la tabla LOG_CAMBIOS.
-
-**Detalles:**
-
-* **Tabla afectada:** CLIENTE
-* **Acción:** INSERT
-* **Información registrada:** Fecha, ID del cliente, Usuario
-
-**Ejemplo:**
-
-* Se inserta un nuevo cliente.
-* El trigger registra la acción en la tabla LOG_CAMBIOS con los detalles correspondientes.
-
-### Trigger: after_update_cancelacion_trigger
-
-**Descripción:** Este trigger registra la cancelación de una reserva en la tabla LOG_CAMBIOS.
+**Descripción:** Este trigger verifica si el médico ya tiene un turno programado en la misma fecha y hora antes de permitir la inserción de un nuevo turno.
 
 **Detalles:**
 
-* **Tabla afectada:** RESERVA
-* **Acción:** CANCELACION
-* **Información registrada:** Fecha, ID del cliente (si se conoce), Usuario
+* **Tabla afectada:** TURNOS
+* **Acción:** BEFORE INSERT
+* **Validación:** Turnos
 
 **Ejemplo:**
 
-* Se actualiza una reserva para indicar su cancelación.
-* Si la cancelación no estaba presente antes, el trigger registra la acción en la tabla LOG_CAMBIOS.
+* Verifica si ya existe un turno para el médico en la misma fecha y hora
+* El trigger impide insertar un turno si el médico ya tiene un turno en esa fecha y hora.
 
-### Trigger: before_insert_cliente_trigger
 
-**Descripción:** Este trigger verifica si el correo electrónico de un nuevo cliente ya está en uso.
+### Trigger: actualizar_historial_medico
+
+**Descripción:** Este trigger actualiza el historial médico del paciente para incluir información sobre una nueva receta cuando se inserta un nuevo registro en la tabla 'Receta'.
 
 **Detalles:**
 
-* **Tabla afectada:** CLIENTE
-* **Acción:** INSERT
-* **Validación:** Correo electrónico único
+* **Tabla afectada:** RECETA, PACIENTE
+* **Acción:** BEFORE INSERT
+* **Información registrada:** NEW.id_turno, NEW.medicamento, NEW.dosis, NEW.vencimiento
 
 **Ejemplo:**
 
-* Se intenta insertar un nuevo cliente con un correo electrónico ya registrado.
-* El trigger genera un error y la inserción no se realiza.
+* Actualiza el historial médico del paciente con la información de la nueva receta.
+* Añade detalles de la nueva receta al historial médico del paciente.
 
-### Trigger: before_insert_reserva_trigger
 
-**Descripción:** Este trigger verifica si un cliente ya tiene una reserva en la misma hora y mesa.
+### Trigger: prevenir_eliminacion_paciente
+
+**Descripción:** Este trigger previene la eliminación de un paciente si tiene turnos asociados en la base de datos.
 
 **Detalles:**
 
-* **Tabla afectada:** RESERVA
-* **Acción:** INSERT
-* **Validación:** No se permiten reservas duplicadas en la misma hora y mesa para un mismo cliente.
+* **Tabla afectada:** PACIENTE, TURNOS
+* **Acción:** BEFORE DELETE
+* **Validación:** Turnos
 
 **Ejemplo:**
 
-* Se intenta reservar una mesa para un cliente que ya tiene una reserva en la misma hora y mesa.
-* El trigger genera un error y la reserva no se realiza.
+* Verifica si el paciente tiene turnos asociados antes de permitir la eliminación.
+* Si se encuentran turnos asociados, se genera un error y se cancela la eliminación.
 
 
 
@@ -362,7 +349,7 @@ CALL crear_paciente('Sofía', 'López', '1990-05-15', 'Calle Falsa 123', '555-12
 * **turno_hora:** Hora del turno.
 * **motivo:** Motivo del turno.
 
-**Funcionalidad:** Verifica si el paciente ya tiene un turno con el mismo médico en la fecha especificada.
+* **Funcionalidad:** Verifica si el paciente ya tiene un turno con el mismo médico en la fecha especificada.
 
 * Si ya existe un turno, genera un error.
 
@@ -391,7 +378,7 @@ CALL asignar_turno(1, 2, '2024-08-15', '14:00:00', 'Consulta de seguimiento');
 * **nuevo_email:** Nuevo correo electrónico.
 * **nuevo_historialmedico:** Nuevo historial médico.
 
-**Funcionalidad:** Verifica si el nuevo correo electrónico ya está en uso por otro paciente.
+* **Funcionalidad:** Verifica si el nuevo correo electrónico ya está en uso por otro paciente.
 
 * Si el correo electrónico ya está en uso, genera un error.
 
