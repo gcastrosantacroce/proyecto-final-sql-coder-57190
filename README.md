@@ -323,62 +323,91 @@ SELECT historial_medico_paciente (25);
 * El trigger genera un error y la reserva no se realiza.
 
 
+
 ## Documentación de Procedimientos Almacenados
 
-### Procedimiento: actualizar_reserva_cancelada_por_email
+### Procedimiento: crear_paciente
 
-**Descripción:** Este procedimiento actualiza una reserva cancelada para un cliente a partir de su correo electrónico.
+**Descripción:** Este procedimiento crea un nuevo paciente en la base de datos.
 
 **Parámetros:**
 
-* **p_email:** Correo electrónico del cliente
+* **nombre:** Nombre del paciente.
+* **apellido:** Apellido del paciente.
+* **fechanacimiento:** Fecha de nacimiento del paciente.
+* **direccion:** Dirección del paciente.
+* **telefono:** Teléfono del paciente.
+* **email:** Email del paciente (debe ser único).
+* **historialmedico:** Historial médico del paciente.
 
-**Retorno:**
-
-* Mensaje de éxito o error
+**Funcionalidad:** Inserta un nuevo registro en la tabla Paciente con los valores proporcionados.
 
 **Ejemplo de uso:**
 
 ```sql
-CALL actualizar_reserva_cancelada_por_email('ejemplo@correo.com');
+CALL crear_paciente('Sofía', 'López', '1990-05-15', 'Calle Falsa 123', '555-1234', 'sofia@example.com', 'Ninguno');
 ```
 
-### Procedimiento: actualizar_tipo_reserva_por_email
 
-**Descripción:** Este procedimiento actualiza el tipo de reserva de la última reserva realizada por un cliente a partir de su correo electrónico.
+
+### Procedimiento: asignar_turno
+
+**Descripción:** Asigna un nuevo turno a un paciente solo si no existe un turno previo para el mismo médico en la misma fecha.
 
 **Parámetros:**
 
-* **p_email:** Correo electrónico del cliente
-* **p_nuevo_tipo:** Nuevo tipo de reserva
+* **paciente_id:** ID del paciente.
+* **medico_id:** ID del médico.
+* **turno_fecha:** Fecha del turno.
+* **turno_hora:** Hora del turno.
+* **motivo:** Motivo del turno.
 
-**Retorno:**
+**Funcionalidad:** Verifica si el paciente ya tiene un turno con el mismo médico en la fecha especificada.
 
-* Mensaje de éxito o error
+* Si ya existe un turno, genera un error.
+
+* Si no existe un turno, inserta un nuevo registro en la tabla 'Turnos'.
 
 **Ejemplo de uso:**
 
 ```sql
-CALL actualizar_tipo_reserva_por_email('ejemplo@correo.com', 'Reserva de Grupo');
+CALL asignar_turno(1, 2, '2024-08-15', '14:00:00', 'Consulta de seguimiento');
 ```
 
-### Procedimiento: crear_empleado
 
-**Descripción:** Este procedimiento crea un nuevo empleado en la base de datos.
+
+### Procedimiento: actualizar_paciente
+
+**Descripción:** Actualiza la información de un paciente, asegurando que el nuevo correo electrónico no esté en uso por otro paciente.
 
 **Parámetros:**
 
-* **p_nombre:** Nombre del empleado
-* **p_telefono:** Teléfono del empleado
-* **p_correo:** Correo electrónico del empleado
-* **p_id_restaurante:** Identificador del restaurante al que pertenece el empleado
+* **paciente_id:** ID del paciente que se actualizará.
+* **nuevo_nombre:** Nuevo nombre del paciente.
+* **nuevo_apellido:** Nuevo apellido del paciente.
+* **nueva_fechanacimiento:** Nueva fecha de nacimiento.
+* **nueva_direccion:** Nueva dirección.
+* **nuevo_telefono:** Nuevo teléfono.
+* **nuevo_email:** Nuevo correo electrónico.
+* **nuevo_historialmedico:** Nuevo historial médico.
 
-**Retorno:**
+**Funcionalidad:** Verifica si el nuevo correo electrónico ya está en uso por otro paciente.
 
-* Mensaje de éxito o error
+* Si el correo electrónico ya está en uso, genera un error.
+
+* Si el correo electrónico es único, actualiza el registro del paciente con la nueva información.
 
 **Ejemplo de uso:**
 
 ```sql
-CALL crear_empleado('Juan Pérez', '123456789', 'juan.perez@ejemplo.com', 1);
+CALL actualizar_paciente(
+    1, 
+    'Carlos', 
+    'García', 
+    '1985-12-20', 
+    'Avenida Central 456', 
+    '555-6789', 
+    'carlos.garcia@example.com', 
+    'Historial actualizado.'
+);
 ```
