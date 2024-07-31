@@ -21,7 +21,7 @@ SET GLOBAL local_infile = true;
 
 ```sql
 -- Insertar datos en la tabla Paciente
-LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/pacientes.csv'
+LOAD DATA LOCAL INFILE '/sql_project/data_csv/pacientes.csv'
 INTO TABLE Paciente
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -32,7 +32,7 @@ IGNORE 1 ROWS
 
 **Descripción:** Este comando importa datos desde el archivo pacientes.csv a la tabla Paciente.
 
-* LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/pacientes.csv': Especifica el archivo CSV local que contiene los datos a importar.
+* LOAD DATA LOCAL INFILE '/sql_project/data_csv/pacientes.csv': Especifica el archivo CSV local que contiene los datos a importar.
 * INTO TABLE Paciente: Indica que los datos deben insertarse en la tabla Paciente.
 * FIELDS TERMINATED BY ',': Define que los campos en el archivo CSV están separados por comas.
 * ENCLOSED BY '"': Especifica que los valores de los campos están entre comillas dobles.
@@ -45,7 +45,7 @@ IGNORE 1 ROWS
 
 ```sql
 -- Insertar datos en la tabla Medico
-LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/medicos.csv'
+LOAD DATA LOCAL INFILE '/sql_project/data_csv/medicos.csv'
 INTO TABLE Medico
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -61,7 +61,7 @@ IGNORE 1 ROWS
 
 ```sql
 -- Insertar datos en la tabla Turnos
-LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/turnos.csv'
+LOAD DATA LOCAL INFILE '/sql_project/data_csv/turnos.csv'
 INTO TABLE Turnos
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -77,7 +77,7 @@ IGNORE 1 ROWS
 
 ```sql
 -- Insertar datos en la tabla Receta
-LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/recetas.csv'
+LOAD DATA LOCAL INFILE '/sql_project/data_csv/recetas.csv'
 INTO TABLE Receta
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -93,7 +93,7 @@ IGNORE 1 ROWS
 
 ```sql
 -- Insertar datos en la tabla Tratamiento
-LOAD DATA LOCAL INFILE '/proyecto-final-sql/data_csv/tratamientos.csv'
+LOAD DATA LOCAL INFILE '/sql_project/data_csv/tratamientos.csv'
 INTO TABLE Tratamiento
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
