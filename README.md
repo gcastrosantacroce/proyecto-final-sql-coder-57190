@@ -398,3 +398,14 @@ CALL actualizar_paciente(
     'Historial actualizado.'
 );
 ```
+
+
+**Comentarios:**
+
+* Se hizo una modificacion en la configuracion, para que la importacion permita las letras ñ y las tildes.
+
+* Para esto, se añadio el archivo my.cnf  
+
+* Se modifico el archivo docker-compose.yml con el agregado del volumen de la configuracion nueva.
+
+* Se accedio a la terminal del nodo de Github para dar los permisos a traves de "chmod 644 ./my.cnf"
