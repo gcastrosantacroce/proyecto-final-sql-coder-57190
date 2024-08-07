@@ -1,6 +1,6 @@
 USE cm_vanguardia;
 
----------------------------------------------------------------
+-- -------------------------------------------------------------
 -- Función para obtener la cantidad de turnos de un paciente
 DROP FUNCTION IF EXISTS detalle_turnos_paciente;
 
@@ -34,11 +34,11 @@ END //
 DELIMITER ;
 -- Ejemplo de la función
 SELECT detalle_turnos_paciente (29);
----------------------------------------------------------------
+-- -------------------------------------------------------------
 
 
 
----------------------------------------------------------------
+-- -------------------------------------------------------------
 -- Función para obtener la cantidad de turnos de un médico
 DROP FUNCTION IF EXISTS detalles_turnos_medico;
 
@@ -78,11 +78,11 @@ END //
 DELIMITER ;
 -- Ejemplo de la función
 SELECT detalles_turnos_medico (6);
----------------------------------------------------------------
+-- -------------------------------------------------------------
 
 
 
----------------------------------------------------------------
+-- -------------------------------------------------------------
 -- Función para obtener el historial médico de un paciente
 DROP FUNCTION IF EXISTS historial_medico_paciente;
 
@@ -116,4 +116,4 @@ END //
 DELIMITER ;
 -- Ejemplo de la función
 SELECT historial_medico_paciente (25);
----------------------------------------------------------------
+-- -------------------------------------------------------------
