@@ -102,7 +102,7 @@ Descripcion de los tipos de datos por tabla
 |               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
 |               | historialmedico   | TEXT                 |                   | No admite datos nulos    |
-
+-----------------------------------------------------------------------------------------------------------
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
 | ------------- | ----------------- | :------------------: | :---------------: | :-----------------------:|
 | MEDICO        | id_medico         | INT                  | PK                | Autoincremental No Nula  |
