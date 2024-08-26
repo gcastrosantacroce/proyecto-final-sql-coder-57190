@@ -93,7 +93,7 @@ Descripcion de los tipos de datos por tabla
 ---
 
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
-| ------------- | ----------------- | -------------------- | ----------------- | --------------------:    |
+| ------------- | ----------------- | -------------------- | :---------------: | :-----------------------:|
 | PACIENTE      | id_paciente       | INT                  | PK                | Autoincremental No Nula  |
 |               | nombre            | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | apellido          | VARCHAR(50)          |                   | No admite datos nulos    |
@@ -102,23 +102,27 @@ Descripcion de los tipos de datos por tabla
 |               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
 |               | historialmedico   | TEXT                 |                   | No admite datos nulos    |
+---
 | MEDICO        | id_medico         | INT                  | PK                | Autoincremental No Nula  |
 |               | nombre            | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | apellido          | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | especialidad      | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
+---
 | TURNOS        | id_turno          | INT                  | PK                | Autoincremental No Nula  |
 |               | id_paciente       | INT                  | FK                | No admite datos nulos    |
 |               | id_medico         | INT                  | FK                | No admite datos nulos    |
 |               | fecha             | DATE                 |                   | Fecha actual o ingresada |
 |               | hora              | TIME                 |                   | Hora actual o ingresada  | 
 |               | motivo            | TEXT                 |                   | No admite datos nulos    |
+---
 | RECETA        | id_receta         | INT                  | PK                | Autoincremental No Nula  |
 |               | id_turno          | INT                  | FK                | No admite datos nulos    |
 |               | medicamento       | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | dosis             | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | vencimiento       | DATE                 |                   | Fecha actual o ingresada |
+---
 | TRATAMIENTO   | id_tratamiento    | INT                  | PK                | Autoincremental No Nula  |
 |               | id_receta         | INT                  | FK                | No admite datos nulos    |
 |               | descripcion       | TEXT                 |                   | No admite datos nulos    |
