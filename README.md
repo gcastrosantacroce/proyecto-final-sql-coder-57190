@@ -1,9 +1,6 @@
 ## PROYECTO FINAL CODER SQL
 
 
-### PRIMERA PRE-ENTREGA 
-
-
 #### Descripción de la temática de la base de datos: 
 
 
@@ -95,44 +92,36 @@ Descripcion de los tipos de datos por tabla
 
 ---
 
-| Tabla         | Columna           | Tipo de Datos                         |
-| ------------- | ----------------- |-------------------------------------: |
-| PACIENTE      | id_paciente       | INT                                   |
-|               | nombre            | VARCHAR(50)                           |
-|               | apellido          | VARCHAR(50)                           |
-|               | fechanacimiento   | DATE                                  |
-|               | direccion         | VARCHAR(100)                          |
-|               | telefono          | VARCHAR(20)                           |
-|               | email             | VARCHAR(50) UNIQUE                    |
-|               | historialmedico   | TEXT                                  |
-| MEDICO        | id_medico         | INT                                   |
-|               | nombre            | VARCHAR(50)                           |
-|               | apellido          | VARCHAR(50)                           |
-|               | especialidad      | VARCHAR(50)                           |
-|               | telefono          | VARCHAR(20)                           |
-|               | email             | VARCHAR(50) UNIQUE                    |
-| TURNOS        | id_turno          | INT                                   |
-|               | id_paciente       | INT                                   |
-|               | id_medico         | INT                                   |
-|               | fecha             | DATE                                  |
-|               | hora              | TIME                                  |
-|               | motivo            | TEXT                                  |
-| RECETA        | id_receta         | INT                                   |
-|               | id_turno          | INT                                   |
-|               | medicamento       | VARCHAR(50)                           |
-|               | dosis             | VARCHAR(50)                           |
-|               | vencimiento       | DATE                                  |
-| TRATAMIENTO   | id_tratamiento    | INT                                   |
-|               | id_receta         | INT                                   |
-|               | descripcion       | TEXT                                  |
-
-
-### SEGUNDA PRE-ENTREGA 
-
-* Listado de Vistas más una descripción detallada, su objetivo, y qué tablas las componen. 
-* Listado de Funciones que incluyan una descripción detallada, el objetivo para la cual fueron creadas y qué datos o tablas manipulan y/o son implementadas.
-* Listado de Stored Procedures con una descripción detallada, qué objetivo o beneficio aportan al proyecto, y las tablas que lo componen y/o tablas con las que interactúa
-* Listado de Triggers
+| Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
+| ------------- | ----------------- | -------------------- | ----------------- | --------------------:    |
+| PACIENTE      | id_paciente       | INT                  | PK                | Autoincremental No Nula  |
+|               | nombre            | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | apellido          | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | fechanacimiento   | DATE                 |                   | Fecha actual o ingresada |
+|               | direccion         | VARCHAR(100)         |                   | No admite datos nulos    |
+|               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
+|               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
+|               | historialmedico   | TEXT                 |                   | No admite datos nulos    |
+| MEDICO        | id_medico         | INT                  | PK                | Autoincremental No Nula  |
+|               | nombre            | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | apellido          | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | especialidad      | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
+|               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
+| TURNOS        | id_turno          | INT                  | PK                | Autoincremental No Nula  |
+|               | id_paciente       | INT                  | FK                | No admite datos nulos    |
+|               | id_medico         | INT                  | FK                | No admite datos nulos    |
+|               | fecha             | DATE                 |                   | Fecha actual o ingresada |
+|               | hora              | TIME                 |                   | Hora actual o ingresada  | 
+|               | motivo            | TEXT                 |                   | No admite datos nulos    |
+| RECETA        | id_receta         | INT                  | PK                | Autoincremental No Nula  |
+|               | id_turno          | INT                  | FK                | No admite datos nulos    |
+|               | medicamento       | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | dosis             | VARCHAR(50)          |                   | No admite datos nulos    |
+|               | vencimiento       | DATE                 |                   | Fecha actual o ingresada |
+| TRATAMIENTO   | id_tratamiento    | INT                  | PK                | Autoincremental No Nula  |
+|               | id_receta         | INT                  | FK                | No admite datos nulos    |
+|               | descripcion       | TEXT                 |                   | No admite datos nulos    |
 
 ---
 
@@ -400,7 +389,7 @@ CALL actualizar_paciente(
 ```
 
 
-**Comentarios:**
+## Comentarios:
 
 * Se hizo una modificacion en la configuracion, para que la importacion permita las letras ñ y las tildes.
 
