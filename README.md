@@ -103,10 +103,6 @@ Descripcion de los tipos de datos por tabla
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
 |               | historialmedico   | TEXT                 |                   | No admite datos nulos    |
 
----
-
----
-
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
 | ------------- | ----------------- | :------------------: | :---------------: | :-----------------------:|
 | MEDICO        | id_medico         | INT                  | PK                | Autoincremental No Nula  |
@@ -115,10 +111,6 @@ Descripcion de los tipos de datos por tabla
 |               | especialidad      | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
-
----
-
----
 
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
 | ------------- | ----------------- | :------------------: | :---------------: | :-----------------------:|
@@ -129,10 +121,6 @@ Descripcion de los tipos de datos por tabla
 |               | hora              | TIME                 |                   | Hora actual o ingresada  | 
 |               | motivo            | TEXT                 |                   | No admite datos nulos    |
 
----
-
----
-
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
 | ------------- | ----------------- | :------------------: | :---------------: | :-----------------------:|
 | RECETA        | id_receta         | INT                  | PK                | Autoincremental No Nula  |
@@ -140,10 +128,6 @@ Descripcion de los tipos de datos por tabla
 |               | medicamento       | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | dosis             | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | vencimiento       | DATE                 |                   | Fecha actual o ingresada |
-
----
-
----
 
 | Tabla         | Columna           | Tipo de Datos        | Tipo de clave     | Descripcion              |
 | ------------- | ----------------- | :------------------: | :---------------: | :-----------------------:|
