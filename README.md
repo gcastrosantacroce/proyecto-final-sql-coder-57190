@@ -103,13 +103,16 @@ Descripcion de los tipos de datos por tabla
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
 |               | historialmedico   | TEXT                 |                   | No admite datos nulos    |
 
+---
+---
+
 | MEDICO        | id_medico         | INT                  | PK                | Autoincremental No Nula  |
 |               | nombre            | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | apellido          | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | especialidad      | VARCHAR(50)          |                   | No admite datos nulos    |
 |               | telefono          | VARCHAR(20)          |                   | No admite datos nulos    |
 |               | email             | VARCHAR(50) UNIQUE   |                   | Único y No Nulo          |
-
+|               |                   |                      |                   |                          |
 | TURNOS        | id_turno          | INT                  | PK                | Autoincremental No Nula  |
 |               | id_paciente       | INT                  | FK                | No admite datos nulos    |
 |               | id_medico         | INT                  | FK                | No admite datos nulos    |
