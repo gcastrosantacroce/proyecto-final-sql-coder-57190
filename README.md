@@ -1,10 +1,18 @@
 ## PROYECTO FINAL CODER SQL
 
+## Introducción:
+------------------------------------------------------------------
 
 #### Descripción de la temática de la base de datos: 
 
 
-Esta es una base de datos diseñada para un centro médico. En la misma, se gestiona la informacion de turnos del centro, así como la información relacionada con pacientes, médicos, tratamientos  y recetas.
+Esta es una base de datos diseñada para un centro médico. En la misma, se gestiona la informacion de turnos del centro, así como la información relacionada con pacientes, médicos, tratamientos  y recetas. 
+
+
+#### Objetivo, situación problemática y modelo de negocio: 
+
+
+Diseñar una base de datos agil, escalable, simple y con la eficiencia suficiente para realizar las gestiones de turnos para pacientes, y toda la información pertinente a ellos y a su atención en el centro. A traves de los turnos y la atención recibida en el centro, quedaran registrados tratamientos, medicamentos, y todo lo relacionado con su visita al centro.
 
 
 #### Diagrama de entidad relación de la base de datos simplificado:
@@ -391,6 +399,11 @@ CALL actualizar_paciente(
     'Historial actualizado.'
 );
 ```
+
+
+## Tecnologías usadas:
+
+Para el desarrollo del proyecto, se utilizó tanto Workbench como Dbeaver para la gestión de la BD, inserción de data y creación de los scripts .sql; también se utilizó VSC para subir la info a Github y todo lo pertinente a los comentarios y archivos de lectura y presentación.
 
 
 ## Comentarios:
