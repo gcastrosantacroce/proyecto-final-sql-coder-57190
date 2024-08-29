@@ -78,4 +78,3 @@ SELECT * FROM Receta LIMIT 10;
 
 -- Verificación de datos en la tabla Tratamiento
 SELECT * FROM Tratamiento LIMIT 10;
-

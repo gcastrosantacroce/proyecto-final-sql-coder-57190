@@ -5,6 +5,7 @@ DROP PROCEDURE IF EXISTS crear_paciente;
 DROP PROCEDURE IF EXISTS asignar_turno;
 DROP PROCEDURE IF EXISTS actualizar_paciente;
 
+
 -- Procedimiento para crear un nuevo paciente
 DELIMITER //
 
@@ -23,9 +24,8 @@ BEGIN
 END //
 DELIMITER ;
 
--- ejemplo de procedimiento
+-- Ejemplo de procedimiento
 CALL crear_paciente('Sofía', 'López', '1990-05-15', 'Calle Falsa 123', '555-1234', 'sofia@example.com', 'Ninguno');
-
 
 
 -- Procedimiento para asignar un turno a un paciente
@@ -59,9 +59,8 @@ END //
 
 DELIMITER ;
 
--- ejemplo de procedimiento
-
-
+-- Ejemplo de procedimiento
+CALL asignar_turno(1, 2, '2024-09-15', '10:00:00', 'Consulta general');
 
 
 -- Procedimiento para actualizar la información del paciente
@@ -103,3 +102,6 @@ BEGIN
 END //
 
 DELIMITER ;
+
+-- Ejemplo de procedimiento
+CALL actualizar_paciente(1, 'Juan', 'Pérez', '1990-05-15', 'Avenida Siempre Viva 742', '123-456-7890', 'juan.perez@example.com', 'Historial médico actualizado');

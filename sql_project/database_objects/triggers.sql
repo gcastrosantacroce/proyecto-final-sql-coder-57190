@@ -25,7 +25,6 @@ END //
 DELIMITER ;
 
 
-
 -- Trigger para actualizar el historial médico del paciente cuando se crea una nueva receta
 DELIMITER //
 CREATE TRIGGER actualizar_historial_medico
@@ -49,7 +48,6 @@ BEGIN
 END //
 
 DELIMITER ;
-
 
 
 -- Trigger para prevenir la eliminación de un paciente si tiene turnos asociados

@@ -1,7 +1,6 @@
 ## PROYECTO FINAL CODER SQL
 
 ## Introducción:
-------------------------------------------------------------------
 
 #### Descripción de la temática de la base de datos: 
 
@@ -136,6 +135,8 @@ Descripcion de los tipos de datos por tabla
 |               | descripcion       | TEXT                 |                   | No admite datos nulos    |
 
 ---
+
+## Objetos de la base de datos
 
 ## Documentacion de Vistas
 ### Vista: cantidad_turnos_por_paciente
@@ -399,6 +400,12 @@ CALL actualizar_paciente(
     'Historial actualizado.'
 );
 ```
+
+
+## Backup:
+
+
+Se realiza un Backup a traves de Dbeaver y su funcionalidad de exportar base de datos en un unico archivo. El mismo, se encuentra alojado en la carpeta backup_vanguardia bajo el nombre backup_cmvanguardia.sql
 
 
 ## Tecnologías usadas:

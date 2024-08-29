@@ -19,7 +19,6 @@ GROUP BY
 -- -------------------------------------------------------
     
 
-
 -- Vista para obtener la cantidad de turnos por médico
 -- Esta vista mostrara la cantidad de turnos por médico
 CREATE VIEW cantidad_turnos_por_medico AS
@@ -35,7 +34,6 @@ GROUP BY
     m.id_medico, medico_nombre;
 
 -- -------------------------------------------------------
-
 
 
 -- Vista para obtener detalles de los turnos, incluyendo información del paciente y del médico

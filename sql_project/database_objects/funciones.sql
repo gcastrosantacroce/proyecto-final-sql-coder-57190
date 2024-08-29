@@ -37,7 +37,6 @@ SELECT detalle_turnos_paciente (29);
 -- -------------------------------------------------------------
 
 
-
 -- -------------------------------------------------------------
 -- Función para obtener la cantidad de turnos de un médico
 DROP FUNCTION IF EXISTS detalles_turnos_medico;
@@ -79,7 +78,6 @@ DELIMITER ;
 -- Ejemplo de la función
 SELECT detalles_turnos_medico (6);
 -- -------------------------------------------------------------
-
 
 
 -- -------------------------------------------------------------
